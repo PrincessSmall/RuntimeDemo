@@ -9,5 +9,12 @@
 #import <Foundation/Foundation.h>
 
 @interface LMPerson : NSObject
+/**年龄*/
+@property (nonatomic , assign)int age;//属性变量
+
+-(void)fun1;
+-(void)fun2;
+
+
 
 @end

@@ -10,4 +10,5 @@
 
 @interface LMPerson (LMPersonCategory)
 
+@property (nonatomic , assign)float height;//新属性
 @end

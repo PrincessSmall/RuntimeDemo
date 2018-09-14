@@ -13,6 +13,8 @@
 		EE166587214A566400EFB29A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE166586214A566400EFB29A /* Assets.xcassets */; };
 		EE16658A214A566400EFB29A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE166588214A566400EFB29A /* LaunchScreen.storyboard */; };
 		EE16658D214A566400EFB29A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EE16658C214A566400EFB29A /* main.m */; };
+		EE166595214A568100EFB29A /* LMPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = EE166594214A568100EFB29A /* LMPerson.m */; };
+		EEDD9DE0214B4EA900AA678B /* LMPerson+LMPersonCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = EEDD9DDF214B4EA900AA678B /* LMPerson+LMPersonCategory.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		EE166589214A566400EFB29A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EE16658B214A566400EFB29A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EE16658C214A566400EFB29A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EE166593214A568100EFB29A /* LMPerson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LMPerson.h; sourceTree = "<group>"; };
+		EE166594214A568100EFB29A /* LMPerson.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LMPerson.m; sourceTree = "<group>"; };
+		EEDD9DDE214B4EA900AA678B /* LMPerson+LMPersonCategory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LMPerson+LMPersonCategory.h"; sourceTree = "<group>"; };
+		EEDD9DDF214B4EA900AA678B /* LMPerson+LMPersonCategory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "LMPerson+LMPersonCategory.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +68,10 @@
 				EE16657E214A566300EFB29A /* AppDelegate.m */,
 				EE166580214A566300EFB29A /* ViewController.h */,
 				EE166581214A566300EFB29A /* ViewController.m */,
+				EE166593214A568100EFB29A /* LMPerson.h */,
+				EE166594214A568100EFB29A /* LMPerson.m */,
+				EEDD9DDE214B4EA900AA678B /* LMPerson+LMPersonCategory.h */,
+				EEDD9DDF214B4EA900AA678B /* LMPerson+LMPersonCategory.m */,
 				EE166583214A566300EFB29A /* Main.storyboard */,
 				EE166586214A566400EFB29A /* Assets.xcassets */,
 				EE166588214A566400EFB29A /* LaunchScreen.storyboard */,
@@ -97,6 +107,7 @@
 		EE166572214A566300EFB29A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = LM;
 				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = "李敏";
 				TargetAttributes = {
@@ -142,8 +153,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				EE166582214A566300EFB29A /* ViewController.m in Sources */,
+				EE166595214A568100EFB29A /* LMPerson.m in Sources */,
 				EE16658D214A566400EFB29A /* main.m in Sources */,
 				EE16657F214A566300EFB29A /* AppDelegate.m in Sources */,
+				EEDD9DE0214B4EA900AA678B /* LMPerson+LMPersonCategory.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
